@@ -21,6 +21,7 @@ function K.misc()
     map(N, 'Y',                 'y$')                                       -- making Y act like C and D
     map(N, 'J',                 'J$')                                       -- go to end after a join
     map(N, 'S',                 'T hr<CR>k$')                               -- split (opposite of J)
+    map(I, 'öö',                '<Esc>')                                    -- Enter normal-mode with 'öö'                 
 end
 
 function K.telescope()
