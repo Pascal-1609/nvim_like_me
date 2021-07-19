@@ -49,3 +49,6 @@ end
 command 'ThemeCycle lua ThemeCycle()'
 
 ThemeSet(Theme_curr)
+
+-- Overwriting the existing theme
+vim.cmd('highlight Comment guifg=#FFA500')
