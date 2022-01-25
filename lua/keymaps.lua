@@ -1,5 +1,7 @@
 local K = {}
 
+map(I, 'jj', '<Esc>')
+
 function K.nvim_comment()
 	map(N, '<leader>c',			':CommentToggle<CR>')
 	map(V, '<leader>c',			':CommentToggle<CR>')

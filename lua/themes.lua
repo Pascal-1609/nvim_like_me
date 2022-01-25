@@ -6,9 +6,9 @@ function T.material(var)
     -- let('material_italic_comments', true)
     -- let('material_italic_keywords', true)
     -- let('material_italic_functions', true)
-    let('material_contrast', true)
-    let('material_style', var)
-    cmd 'colo material'
+    -- let('material_contrast', true)
+     let('material_style', var)
+     cmd 'colo material'
 end
 
 function T.tokyonight(var)
